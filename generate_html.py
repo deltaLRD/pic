@@ -3,7 +3,7 @@ import os
 strs = []
 for file_name in sorted(os.listdir()):
     if (file_name.find('.jpg') is not -1) or (file_name.find('.png') is not -1):
-        strs.append('<li><a href="https://delta_lrd.gitee.io/pic/'+file_name+'">'+file_name+'</a></li>\n')
+        strs.append('<li><a href="https://deltalrd.github.io/pic/'+file_name+'">'+file_name+'</a></li>\n')
     pass
 
 str_html = \
