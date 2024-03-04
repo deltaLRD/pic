@@ -2,8 +2,6 @@ import os
 
 for root, dirs, files in os.walk(os.getcwd()):
     
-    if root != "D:\\pic":
-        continue
     pics = []
     for pic in files:
         if pic.find(".cmd")!=-1:
